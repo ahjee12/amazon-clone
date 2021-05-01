@@ -1,0 +1,65 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #131921;
+}
+.header_logo{
+    /* width: 100px; */
+    margin: 0 20px;
+}
+.header_search{
+    height: 40px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 10px; 
+    overflow: hidden;
+}
+/* javascript로 input eventListener focus되면 search border 생김 */
+/* .header_search:focus{
+    border: 2px solid #e0a04c;
+} */
+
+.header_searchInPut{
+    height: 100%;
+    width: 100%; 
+    border: none;
+    outline: 0;
+}
+
+.header_searchIcon{
+    height: 100% !important;
+    width: 40px !important;
+    background: #e0a04c;
+    color: #131921;
+    /* padding: 5px; */
+}
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: white;
+}
+.header_optionLineOne{
+    font-size: 13px;
+}
+.header_optionLineTwo{
+    /* font-size: 13px; */
+    font-weight: 600;
+}
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.header_basketCount{
+    margin: 0 10px;
+}

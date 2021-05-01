@@ -1,0 +1,23 @@
+.home{
+    max-width: 1500px;
+    margin: 0 auto;
+    /* position: relative; */
+}
+.home__container{
+
+}
+
+.home_image{
+    /* position: absolute; left: 0; top: 0; */
+    /* width: 100%; */
+    width: 1500px;
+    margin: 0 0 -350px 0;
+    /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+/* ☆ home row 안에 PRODUCT! ☆ */
+.home__row{
+    display: flex;
+    z-index: 1;
+    margin: 0 5px;
+}

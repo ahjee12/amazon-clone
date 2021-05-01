@@ -1,0 +1,38 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    /* width 100% 해서 box 늘리면 vs  */
+    width: 100%;
+    min-width: 100px; max-height: 400px;
+    margin: 10px; padding: 20px;
+    background: white;
+    z-index: 1;
+}
+
+.product_info{
+    margin: 0 0 30px 0
+}
+.product_rating{
+    display: flex;
+}
+
+.product > img{
+    /* height 만 설정하는 경우 vs width를 100%로 max-height, 비율 맞게 object-fit 설정하는 경우 -> 뭐가 다른가!  */
+    /* width: 100%; */
+    height: 200px;
+    /* max-height: 200px; */
+    /* object-fit: contain; */
+    margin: 0 0 15px 0;
+
+}
+
+.product > button{
+    background: linear-gradient(90deg, rgba(255,140,0,1) 0%, rgba(255,168,31,1) 63%, rgba(255,182,0,1) 100%);
+    border: 1px solid #000000;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
