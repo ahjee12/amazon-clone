@@ -7,7 +7,7 @@ export const initialState = {
 export const getBasketTotal = (basket) => basket?.reduce((amount, item) =>item.price + amount, 0)
 // reduce 0은 amount(prev), item(current)
     
-
+//state 기존 action 변동
 const reducer = (state, action) => {
     console.log(action)
     switch(action.type){

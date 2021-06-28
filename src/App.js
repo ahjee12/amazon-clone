@@ -1,10 +1,10 @@
 import './App.css';
 import Header from './components/Header';
 import Home from './components/Home'
-// 라우터
+// 라우터.
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Checkout from './components/Checkout'
-import Login from './components/Login'
+import Login from './components/Login' 
 import React, {useEffect} from 'react'
 import {auth} from './firebase'
 import {useStateValue} from './components/StateProvider'
